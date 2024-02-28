@@ -7,7 +7,7 @@ import messageRoutes from './routes/message.routes.js'
 import userRoutes from './routes/user.routes.js'
 import connectToMongoDB from './db/connectToMongoDB.js';
 import {app, server} from './socket/socket.js'
-
+// https://backend-production-a8ec.up.railway.app/
 
 const PORT = process.env.PORT || 5000
 
